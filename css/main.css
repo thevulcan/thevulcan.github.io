@@ -1,0 +1,523 @@
+/*	 Created by R.Nishaanth Kanna 14DX18
+/* ==========================================*/
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: light;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+}
+p {
+    text-align: center;
+}
+.up123 {
+    opacity: 1;
+    transition: all 1s;
+}
+li {
+    text-align: left;
+}
+.navbar-collapse {
+    -webkit-overflow-scrolling: none;
+}
+.intheading {
+    position: relative;
+    font-size: 1.4em;
+    top: 10%;
+    text-align: center;
+}
+.int {
+    width: 100%;
+    height: 100vh;
+    background: no-repeat center;
+    background-image: url(../img/bg.mp4);
+    align-content: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 1.45;
+}
+.navbar {
+    background-color:#337ab7 ;
+    height: 50px;
+    margin-bottom: 0px;
+    transition: all 1s;
+    border: none;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-weight: 200;
+    padding-top: 10px;
+    border-bottom: 3px solid transparent;
+    transition: 0.2s ease;
+	background-color:#337ab7;
+}
+.navbar-default .navbar-nav > li > a:focus {
+    color: white;background-color:#337ab7;
+}
+.panel {
+	width:100%;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    border-bottom: 3px solid white;
+    color: white;
+	background-color:#337ab7;
+    margin-bottom: 1px;
+}
+
+.navbar-default .navbar-nav > li > a:active{
+    border-bottom: 3px solid white;
+    color: white;
+	background-color:#337ab7;
+    margin-bottom: 1px;
+}
+.resimg {
+    height: 196px;
+    width: 156px;
+}
+.highlight {
+    animation: glow 1s infinite ease-in-out;
+    -webkit-animation: glow 1s infinite ease-in-out;
+    -moz-animation: glow 1s infinite ease-in-out;
+}
+@media(min-width:769px) and (max-width:1024px) {
+.navbar-default .navbar-nav > li > a {
+	font-size:0.8em;
+}
+}
+
+@-webkit-keyframes glow {
+    0% {
+        color: blue;
+    }
+    100% {
+        color: red;
+    }
+}
+@-moz-keyframes glow {
+    0% {
+        color: blue;
+    }
+    100% {
+        color: red;
+    }
+}
+@keyframes glow {
+    0% {
+        color: blue;
+    }
+    100% {
+        color: red;
+    }
+}
+.ani1 {
+    animation: alternate1 5s infinite ease-in-out;
+    -webkit-animation: alternate1 5s infinite ease-in-out;
+    -moz-animation: alternate1 5s infinite ease-in-out;
+    border-color: white;
+}
+.panel-primary > .panel-body {
+    border-color: white;
+}
+.ani2 {
+    animation: alternate2 5s infinite ease-in-out;
+    -webkit-animation: alternate2 5s infinite ease-in-out;
+    -moz-animation: alternate2 5s infinite ease-in-out;
+    border-color: white;
+}
+.headeffect {
+    border-bottom: 3px solid #337ab7;
+    animation: alternate3 1s infinite;
+}
+@-webkit-keyframes alternate3 {
+    0% {
+        border-bottom: 3px solid #337ab7;
+    }
+    50% {
+        border-bottom: 3px solid white;
+    }
+    100% {
+        border-bottom: 3px solid #337ab7;
+    }
+}
+@-moz-keyframes alternate3 {
+    0% {
+        border-bottom: 3px solid #337ab7;
+    }
+    50% {
+        border-bottom: 3px solid white;
+    }
+    100% {
+        border-bottom: 3px solid #337ab7;
+    }
+}
+@keyframes alternate3 {
+    0% {
+        border-bottom: 3px solid #337ab7;
+    }
+    50% {
+        border-bottom: 3px solid white;
+    }
+    100% {
+        border-bottom: 3px solid #337ab7;
+    }
+}
+@-webkit-keyframes alternate1 {
+    0% {
+        background-color: #337ab7;
+        color: white;
+    }
+    50% {
+        background-color: #d9edf7;
+        color: #31708f;
+    }
+    100% {
+        background-color: #337ab7;
+        color: white;
+    }
+}
+@-moz-keyframes alternate1 {
+    0% {
+        background-color: #337ab7;
+        color: white;
+    }
+    50% {
+        background-color: #d9edf7;
+        color: #31708f;
+    }
+    100% {
+        background-color: #337ab7;
+        color: white;
+    }
+}
+@keyframes alternate1 {
+    0% {
+        background-color: #337ab7;
+        color: white;
+    }
+    50% {
+        background-color: #d9edf7;
+        color: #31708f;
+    }
+    100% {
+        background-color: #337ab7;
+        color: white;
+    }
+}
+@-webkit-keyframes alternate2 {
+    0% {
+        background-color: #d9edf7;
+        color: #31708f;
+    }
+    50% {
+        background-color: #337ab7;
+        color: white;
+    }
+    100% {
+        background-color: #d9edf7;
+        color: #31708f;
+    }
+}
+@-moz-keyframes alternate2 {
+    0% {
+        background-color: #d9edf7;
+        color: #31708f;
+    }
+    50% {
+        background-color: #337ab7;
+        color: white;
+    }
+    100% {
+        background-color: #d9edf7;
+        color: #31708f;
+    }
+}
+@keyframes alternate2 {
+    0% {
+        background-color: #d9edf7;
+        color: #31708f;
+    }
+    50% {
+        background-color: #337ab7;
+        color: white;
+    }
+    100% {
+        background-color: #d9edf7;
+        color: #31708f;
+    }
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+#gallery img {
+    display: block;
+    width: 100%;
+    height: auto;
+    left: 0px;
+}
+.heading {
+    font-size: 1.4em;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 10px;
+}
+.subheading {
+    font-size: 1.2em;
+    font-weight: 200;
+    text-align: center;
+}
+.captionheading {
+    font-size: 1em;
+    font-weight: 200;
+    text-align: center;
+}
+.homepage {
+    border-radius: 25px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+p {
+    margin: 0 0 25px;
+    line-height: 1.5;
+    color: #000000;
+    text-align: justify;
+}
+a {
+    color: deepskyblue;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+.intro {} .middle {
+    background-color: #e0e0e0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+.middle p {
+    font-weight: 300;
+    text-align: center;
+    font-size: 1.5em;
+}
+.activetouch {} #about {
+    width: 100%;
+}
+.introPSG {
+    width: 40vw;
+    position: absolute;
+    right: 0px;
+    margin-top: 10%;
+    margin-right: 3%;
+}
+#wrapper {
+    position: relative;
+    top: 2200px;
+}
+.introsub {
+    color: #e0e0e0;
+    text-align: justify;
+}
+.panel {
+    margin-top: 20px;
+}
+.panel:hover {
+    box-shadow: 10px;
+}
+.in {
+    top: 0px;
+}
+#about div {
+    padding: 2% 2% 2% 2%;
+    background-color: #e0e0e0;
+}
+.aboutpsg h3 {
+    color: #e0e0e0;
+    text-shadow: 2px 2px 10px black;
+}
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+    width: 100%;
+    height: 100vh;
+}
+#team p {
+    color: black;
+    text-align: center;
+}
+#team h4 {
+    color: black;
+    margin-bottom: -0.1%;
+}
+.owl-carousel img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 45%;
+}
+#news {
+    position: relative;
+    background-color: #e0e0e0;
+}
+#news li {
+    color: #2c2c2c;
+    margin: 5% 5% 5% 5%;
+}
+#team .row {
+    margin: 5% 5% 5% 5%;
+}
+.align-center {
+    left: 42%;
+    position: relative;
+}
+#clubs p {
+    color: #e0e0e0;
+    text-align: center;
+}
+#clubs h2 {
+    color: #F3F3F3;
+    text-align: center;
+}
+#clubs h3 {
+    color: #e0e0e0;
+    text-align: center;
+}
+#clubs li {
+    color: #e0e0e0;
+}
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+.carousel-caption p {
+    color: antiquewhite;
+}
+#gallery {
+    background-color: #2c2c2c;
+    width: 100%;
+    position: relative;
+}
+#gallery p {
+    color: #e0e0e0;
+}
+#contact {
+    width: 100%;
+    background-color: #e0e0e0;
+}
+.dullEffect {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+}
+#contact p {
+    text-align: center;
+    margin-bottom: 8%;
+}
+.left {
+    height: 100%;
+    width: 10vw;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.right {
+    height: 100%;
+    width: 10vw;
+    right: 0;
+    position: absolute;
+    top: 0;
+}
+@media(max-width:768px) {
+    .content-section {
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+    .introPSG {
+        width: 95vw;
+        padding: 10px 10px 10px 10px;
+    }
+    #team img {
+        margin: 5% 5% 5% 5%;
+    }
+    p {
+        margin: 0 0 35px;
+        line-height: 1.6;
+        color: #000000;
+    }
+    .resimg {
+        height: 196px;
+    }
+}
+@media(min-width:1200px) {
+    #contact .col-lg-6 {
+        position: relative;
+        top: -100px;
+    }
+    .content-section {
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+    .intro {
+        background-image: url(../img/banner.jpg);
+    }
+    .activetouch {
+        background-image: url(../img/banner1.jpg);
+    }
+    .introPSG p {
+        color: #e0e0e0;
+        margin-top: 5%;
+    }
+}
+@media(max-width:1024px) {
+    .intro {
+        background-image: url(../img/banner.jpg);
+    }
+    .intro {
+        background-image: url(../img/BannerSmall.jpg);
+        height: 100%;
+        padding: 100px;
+    }
+    .activetouch {
+        background-image: url(../img/Banner2Small.jpg);
+    }
+    .content-section {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    .homepage {
+        background-image: linear-gradient(rgba(162, 0, 155, 0), rgba(67, 39, 201, 0));
+    }
+}
+footer {
+    padding: 50px 0;
+    background-color: #3b5998;
+    color: white;
+}
+footer p {
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+body {
+    webkit-tap-highlight-color: rgba(255, 255, 255, .2);
+}

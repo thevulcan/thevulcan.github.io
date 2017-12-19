@@ -1,0 +1,292 @@
+@charset "UTF-8";
+/*	Effect and images created by R.Nishaanth Kanna 14DX18
+/* ==========================================*/
+
+div.parallax-container {
+	
+
+	width: 100vw;
+	height:100vh;
+	position:relative;
+	top:0px;
+	left:0px;
+	overflow:hidden;
+	overflow-x:hidden;
+	
+	
+}
+body{height:100vh;width:100vw;}
+
+
+
+.introdrop{
+	background:url(../img/giphy.gif) center no-repeat; 
+	background-size: cover;
+	position:absolute;
+	height:100%;
+	width:105%;
+}
+.polymeet{
+	background:url(../img/logofinal.png) center no-repeat;
+	background-size:contain; 
+	height:183px;
+	position:absolute;
+	top:20vh;
+	transform:scale(0.8,0.8);
+	animation:floater 5s infinite;
+	-webkit-animation:floater 5s infinite;
+	-moz-animation:floater 5s infinite;
+	width:1024px;
+}
+.rotationG1{
+	position:absolute;
+	top:-30px;
+	left:-30px;
+	height:90px;
+	width:90px;
+	background:url(../img/gearlowmenu.png) center no-repeat;
+	background-size:contain;
+	animation:rotategear 20s infinite;
+	-webkit-animation:rotategear 20s infinite;
+	-moz-animation:rotategear 20s infinite;
+	transition:all 1s;
+	cursor:pointer;
+	
+}
+
+.menutype{
+	color:white;
+}
+.rotationG2{
+	position:absolute;
+	top:100px;
+	left:-80px;
+	height:180px;
+	width:180px;
+	background:url(../img/gearlow.png) center no-repeat;
+	background-size:contain;
+	animation:rotategear 20s infinite;
+	-webkit-animation:rotategear 20s infinite;
+	-moz-animation:rotategear 20s infinite;
+	transition:all 1s;
+	
+}
+
+.rotationG3{
+	position:absolute;
+	top:100px;
+	right:-100px;
+	height:250px;
+	width:250px;
+	background:url(../img/gearlow.png) center no-repeat;
+	background-size:contain;
+	animation:rotategear 20s infinite;
+	-webkit-animation:rotategear 20s infinite;
+	-moz-animation:rotategear 20s infinite;
+	transition:all 1s;
+	
+}
+.rocket{
+	position:absolute;
+	top:70vh;
+	left:-50px;
+	height:120px;
+	width:600px;
+	background:url(../img/rocket.gif) center no-repeat;
+	background-size:contain;
+	transform:translateX(10vw);
+	
+
+}
+.textanim{
+	position:absolute;
+	top:40vh;
+	
+	height:120px;
+	width:800px;
+	background:url(../img/text.gif) center no-repeat;
+	background-size:contain;
+
+}
+@media(max-width:499px) and (min-width:200px) {
+   .polymeet{
+	   
+   		width:304px;
+		height:66px;
+		position:absolute;
+		left:50%;
+  		-webkit-transform:translateX(-50%);
+  		-moz-transform:translateX(-50%);
+  		-o-transform:translateX(-50%);
+ 		 transform:translateX(-50%);
+   }
+   .textanim{
+
+   	height:64px;
+	width:300px;
+		position:absolute;
+		left:50%;
+  		-webkit-transform:translateX(-50%);
+  		-moz-transform:translateX(-50%);
+  		-o-transform:translateX(-50%);
+ 		 transform:translateX(-50%);
+	
+   }
+   .rocket{
+	
+   	height:74px;
+	width:320px;
+		position:absolute;
+		left:50%;
+  		-webkit-transform:translateX(-50%);
+  		-moz-transform:translateX(-50%);
+  		-o-transform:translateX(-50%);
+ 		 transform:translateX(-50%);
+	
+   }
+   iframe{
+   	height:150px;
+		
+   }
+}
+@media(max-width:768px) and (min-width:500px) {
+   .polymeet{
+   		width:412px;
+		height:90px;
+			position:absolute;
+		left:50%;
+  		-webkit-transform:translateX(-50%);
+  		-moz-transform:translateX(-50%);
+  		-o-transform:translateX(-50%);
+ 		 transform:translateX(-50%);
+   }
+   .textanim{
+   	height:60px;
+	width:400px;	position:absolute;
+		left:50%;
+  		-webkit-transform:translateX(-50%);
+  		-moz-transform:translateX(-50%);
+  		-o-transform:translateX(-50%);
+ 		 transform:translateX(-50%);
+		 
+   }
+   .rocket{
+   	height:60px;
+	width:300px;	position:absolute;
+		left:50%;
+  		-webkit-transform:translateX(-50%);
+  		-moz-transform:translateX(-50%);
+  		-o-transform:translateX(-50%);
+ 		 transform:translateX(-50%);
+   }
+   iframe{
+   	height:250px;
+   }
+}
+@media(min-width:769px) and (max-width:1024px) {
+   .polymeet{
+   		width:765px;
+		
+		
+	
+   }
+   .textanim{
+   		
+		width:540px;
+		position:absolute;
+		
+   }
+   .rocket{
+   	
+	width:380px;
+	position:absolute;
+	
+   }
+   iframe{
+   	height:350px;
+   }
+}
+@media(min-width:1200px) {
+   .polymeet{
+   		width:1024px;
+		height:183px;
+   }
+ .rocket {
+    position: absolute;
+    top: 70vh;
+    left: -50px;
+    height: 120px;
+    width: 600px;
+    background: url(../img/rocket.gif) center no-repeat;
+    background-size: contain;
+    transform: translateX(10vw)
+}
+.textanim {
+    position: absolute;
+    top: 40vh;
+    height: 120px;
+    width: 800px;
+    background: url(../img/text.gif) center no-repeat;
+    background-size: contain
+}
+   iframe{
+   	height:350px;
+   }
+}
+@keyframes floater {
+    0% {
+        top: 16vh
+    }
+    50% {
+        top: 20vh
+    }
+    100% {
+        top: 16vh
+    }
+}
+@-webkit-keyframes floater {
+    0% {
+        top: 16vh
+    }
+    50% {
+        top: 20vh
+    }
+    100% {
+        top: 16vh
+    }
+}
+@-moz-keyframes floater {
+    0% {
+        top: 16vh
+    }
+    50% {
+        top: 20vh
+    }
+    100% {
+        top: 16vh
+    }
+}
+@keyframes rocketgear {
+    0% {
+        transform: translateX(60vw)
+    }
+    100% {
+        transform: translateX(30vw)
+    }
+}
+@-webkit-keyframes rocketgear {
+    0% {
+        transform: translateX(60vw)
+    }
+    100% {
+        transform: translateX(30vw)
+    }
+}
+@-moz-keyframes rocketgear {
+    0% {
+        transform: translateX(60vw)
+    }
+    100% {
+        transform: translateX(30vw)
+    }
+}
